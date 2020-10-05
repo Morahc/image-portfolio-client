@@ -13,9 +13,7 @@
     "react-materialize": "^3.9.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
-  },serve : File C:\Users\MORAH\AppData\Roaming\npm\serve.ps1 cannot be loaded because running scripts is disabled on this system. For more 
-information, see about_Execution_Policies
-  "scripts": {
+  },  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
