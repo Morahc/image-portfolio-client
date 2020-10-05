@@ -1,0 +1,29 @@
+.about {
+    color:#68555b !important;
+}
+.about-wrapper p {
+    font-size: 19px;
+    margin-top: 30px;
+}
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .about-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .about p {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .about-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .about p {
+        font-size: 17px;
+    }
+}

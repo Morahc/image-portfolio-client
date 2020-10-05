@@ -1,0 +1,46 @@
+nav .nav-wrapper ul a{
+   color: rgb(66, 66, 66);
+   /* color: #f1e1e6; */
+   font-size:24px;
+   padding: 0 20px;
+}
+nav .nav-wrapper ul a:hover{
+    opacity: 0.8;
+   background: none;
+}
+nav {
+    padding:0 40px;
+    background-color: transparent;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.4s all ease-out;
+}
+nav a {
+    color:#68555b !important;
+}
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidenav li{
+    padding: 30px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    nav {
+        padding: 0 10px;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    nav a {
+        color: rgb(128, 126, 126) !important;
+    }
+}

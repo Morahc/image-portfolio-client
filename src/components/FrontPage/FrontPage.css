@@ -1,0 +1,30 @@
+.front-page{
+    height: 100vh;
+}
+.landing div.col {
+    height: 100vh;
+}
+.l-page{
+    background: url('https://images.pexels.com/photos/4429565/pexels-photo-4429565.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.land-text {
+    font-size: 500%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .r-page{
+        position: absolute;
+        color: #fff
+    }
+}
+@media only screen and (min-width: 600px) {
+    .r-page{
+        position: absolute;
+        color: #fff
+    }
+    div .col {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,44 @@
+.form-trigger{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.form-trigger i {
+    font-size: 24px;
+}
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.image-container > .image-wrap{
+    overflow: hidden;
+    height: 100%;
+    padding: 50% 0;
+    position: relative;
+}
+.image-wrap img{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 130%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: zoom-in;
+}
+.close-icon{
+    position: absolute;
+    top: 20%;
+    right:5%;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
